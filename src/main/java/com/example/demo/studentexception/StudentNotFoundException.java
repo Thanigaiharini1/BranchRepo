@@ -2,6 +2,8 @@ package com.example.demo.studentexception;
 public class StudentNotFoundException extends RuntimeException {
 	private static final long serialVersionUID = 1;
 	private String message;
+	@Override
+	
 	public String getMessage() {
 		return message;
 	}
